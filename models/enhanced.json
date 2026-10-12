@@ -1,0 +1,97 @@
+{
+  "format": "ptw-phantom-v1",
+  "name": "Layered cube with uniform absorption enhancement",
+  "shape": [
+    40,
+    40,
+    40
+  ],
+  "spacing_mm": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "layers": [
+    {
+      "label": 1,
+      "thickness_mm": 1
+    },
+    {
+      "label": 2,
+      "thickness_mm": 3
+    },
+    {
+      "label": 3,
+      "thickness_mm": 16
+    }
+  ],
+  "materials": [
+    {
+      "label": 1,
+      "name": "Top layer",
+      "mua": 0.03,
+      "mus": 15.0,
+      "g": 0.9,
+      "n": 1.37,
+      "thermal_conductivity": 0.00037,
+      "volumetric_heat_capacity": 0.00374,
+      "perfusion_rate": 0.0
+    },
+    {
+      "label": 2,
+      "name": "Middle layer",
+      "mua": 0.01,
+      "mus": 8.0,
+      "g": 0.9,
+      "n": 1.37,
+      "thermal_conductivity": 0.00021,
+      "volumetric_heat_capacity": 0.002185,
+      "perfusion_rate": 0.0
+    },
+    {
+      "label": 3,
+      "name": "Deep layer",
+      "mua": 0.02,
+      "mus": 10.0,
+      "g": 0.9,
+      "n": 1.37,
+      "thermal_conductivity": 0.0005,
+      "volumetric_heat_capacity": 0.0036,
+      "perfusion_rate": 0.0
+    },
+    {
+      "label": 22,
+      "name": "Enhanced target",
+      "mua": 0.095,
+      "mus": 9.0,
+      "g": 0.9,
+      "n": 1.37,
+      "thermal_conductivity": 0.0005,
+      "volumetric_heat_capacity": 0.0036,
+      "perfusion_rate": 0.0
+    }
+  ],
+  "source_position": [
+    19.5,
+    19.5,
+    -1.5
+  ],
+  "source_direction": [
+    0,
+    0,
+    1
+  ],
+  "wavelength_nm": 808,
+  "description": "Editable input geometry; no precomputed optical or thermal results.",
+  "target": {
+    "center_mm": [
+      10,
+      10,
+      7
+    ],
+    "radius_mm": 2,
+    "label": 22,
+    "base_mua_per_mm": 0.045,
+    "added_mua_per_mm": 0.05
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "format": "ptw-phantom-v1",
+  "name": "Homogeneous 20 mm cube",
+  "shape": [
+    40,
+    40,
+    40
+  ],
+  "spacing_mm": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "layers": [
+    {
+      "label": 1,
+      "thickness_mm": 20
+    }
+  ],
+  "materials": [
+    {
+      "label": 1,
+      "name": "Homogeneous tissue phantom",
+      "mua": 0.02,
+      "mus": 10.0,
+      "g": 0.9,
+      "n": 1.37,
+      "thermal_conductivity": 0.0005,
+      "volumetric_heat_capacity": 0.0036,
+      "perfusion_rate": 0.0
+    }
+  ],
+  "source_position": [
+    19.5,
+    19.5,
+    -1.5
+  ],
+  "source_direction": [
+    0,
+    0,
+    1
+  ],
+  "wavelength_nm": 808,
+  "description": "Editable input geometry; no precomputed optical or thermal results."
+}
