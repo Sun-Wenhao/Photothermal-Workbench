@@ -1,2 +1,2 @@
 # Photothermal-Workbench
-An integrated computational platform dedicated to photothermal simulation. 
+Photothermal Workbench (PTW), an integrated computational platform dedicated to photothermal simulation in biological tissue. It integrates Monte Carlo photon transport, a Pennes bioheat equation solver, and CEM43 and Arrhenius thermal dose integration. Visual configuration of material properties, laser sources, target regions, and temperature measurement sites supports end-to-end simulation of photothermal treatment. 
